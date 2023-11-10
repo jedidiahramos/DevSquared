@@ -3,7 +3,7 @@
 #include "course.h"
 #include <list>
 
-student::student():private user
+student::student(): private user
 {
 private:
     list<course> enrolledCourses;
