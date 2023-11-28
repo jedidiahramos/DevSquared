@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Fu3GTujqxSsUbh/Hs4iiE4Fa7PJu6f2yPBO+buud8c4Tt7yObh4sfL8QzreKK6FPU//9haOCLJTCb70HJUKzFg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jedidiah Ramos\\source\\repos\\NLuaWPF\\NLuaWPF\\NLuaWPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jedidiah Ramos\\.nuget\\packages\\keralua\\1.3.4\\keralua.1.3.4.nupkg.sha512"
+  ],
+  "logs": []
+}
