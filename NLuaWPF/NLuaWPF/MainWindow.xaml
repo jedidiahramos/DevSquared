@@ -1,0 +1,34 @@
+﻿<Window x:Class="NLuaWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:scintilla="clr-namespace:VPKSoft.ScintillaTabbedTextControl;assembly=VPKSoft.ScintillaTabbedTextControl"
+        xmlns:local="clr-namespace:NLuaWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <!--<RichTextBox
+            Name="Editor"
+            Grid.Row="0"/>-->
+        <TextBox
+            Name="Editor"
+            Grid.Row="0"/>
+        <StackPanel Grid.Row="1">
+            <Button
+            Name="btn"
+            Content="Run"
+            Click="btn_Click"
+            />
+            <TextBlock
+                Name="Output"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Text="Output"/>
+        </StackPanel>
+    </Grid>
+</Window>
